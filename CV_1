@@ -1,0 +1,434 @@
+<!-- Przykł szablonu cv w wersii Html
+Autor Adrian M-->
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html>
+<head>
+<title>Moje Cv Adrian Mizler</title>
+<meta http-equiv="Content-Type" content="text/html; utf-8">
+<meta name="description" content="Cv w szablonie html">
+<meta name="keywords" content="szablon cv w html, Cv, Mizler, Adrian Mizler">
+<meta name="resource-type" content="document">
+<meta name="author" content="Adrian Mizler">
+<meta name="robots" content="ALL,FOLLOW">
+
+<style>
+    .pdf {
+        color: #000BFF;
+        font-family: arial, sans-serif;
+        font-size:10pt;
+    }
+
+    .profile {
+        width: 100%;
+        height: 75mm; 
+        float: left;
+    }
+
+    .photo {
+        background:url(Adrian.png);
+        width: 34mm;
+        height:120px;
+        padding: 3px;
+        border:4px solid #000BFF;
+        float: left;
+    }
+
+    .name-box {
+        float: left;
+        width: 66mm;
+        line-height: 14pt;
+        padding-left: 9mm;
+        padding-top: 11mm;
+    }
+
+    .data-box {
+        float: right;
+        width: 60mm;
+        padding-top: 11mm;
+    }
+
+    .levels3 {
+        padding-top: 7mm;
+    }
+
+    .levels4 {
+        padding-top: 4mm;
+    }
+
+    .levels5 {
+        padding-top: 0;
+    }
+
+    .data-row {
+        float: left;
+        width: 100%;
+    }
+
+    .data-up {
+        float: left;
+        width: 100%;
+        font-style: italic;
+        color: #999999;
+    }
+
+    .data-down {
+        float: left;
+        width: 100%;
+    }
+
+    .cv {
+        font-style: italic;
+        color: #999999;
+        padding-bottom: 1mm;
+    }
+
+    .name {
+        text-transform: uppercase;
+        font-size: 19pt;
+        font-weight: bold;
+        color: #FF001F;
+    }
+
+    .profession {
+        font-weight: bold;
+    }
+    
+
+    .block {
+        float: left;
+        width: 100%;
+        margin-bottom: 10mm;
+    }
+
+    .block-heading {
+        float: left;
+        width: 100%;
+        border-bottom:1px solid #333;
+        padding-bottom: 1mm;
+        margin-bottom: 3mm;
+    }
+
+    .block-icon {
+        float: left;
+        width: 10mm;
+    }
+
+    .block-title {
+        font-weight: bold;
+        float: left;
+        font-size: 13pt;
+        text-transform: uppercase;
+        color: #007E16;
+    }
+    
+    .block-single {
+       color: #F29500;
+    }
+    
+    .entry-desc {
+      color: #F29500;
+    }
+    
+    
+
+    .block-row {
+        float: left;
+        width: 100%;
+        margin-bottom: 5mm;
+    }
+
+    .unsignificant {
+        margin-bottom: 2mm;
+    }
+
+    .block-left {
+        width: 6mm;
+        float: left;
+    }
+
+    .block-right {
+        float: right;
+        width: 73mm;
+    }
+
+    .entry-title {
+        font-weight: bold;
+        margin-bottom: 1mm;
+         color:#F29500;
+    }
+
+    .date {
+        font-size:10pt;
+        color:#999;
+        font-weight: normal;
+    }
+
+    .left {
+        width: 83mm;
+        height: 100%;
+        float: left;
+    }
+
+    .icon-circle {
+        padding-top: 1mm;
+        padding-left: 1mm;
+    }
+
+    .right {
+        width: 83mm;
+        height: 100%;
+        float: right;
+    }
+
+
+    /* FOOTER */
+    .disclaimer {
+        height: 10mm;
+        font-size:10pt;
+        line-height: 10pt;
+        border-top: 1mm solid #FF0A00;
+        padding-top: 2mm;
+        
+    }
+    
+        body {
+        margin-top:10px;
+        margin-left:auto;
+        margin-right:auto;
+        width:740px;
+        margin-bottom:10px;
+        list-style: none;
+    }
+</style>
+
+</head>
+<body>
+
+<!--Początek CV -->
+
+<div class="pdf">
+<div class="profile">
+<div class="photo"></div>
+<div class="name-box">
+<div class="cv">Curriculum Vitae</div>
+<div class="name">Adrian Mizler</div>
+<div class="profession">jakieś preferencje</div>
+</div>
+
+
+<div class="data-box levels">        
+<div class="data-row">
+<div class="data-up">Data urodzenia</div>
+<div class="data-down">00.00.0000</div>
+</div>
+                    
+<div class="data-row">
+<div class="data-up">Miejsce zamieszkania</div>
+<div class="data-down">00-000 bleblowie, P Blebloeianskiego 00 lok 00</div>
+</div>
+                    
+<div class="data-row">
+<div class="data-up">Adres e-mail</div>
+<div class="data-down">A05110503@gmail.com</div>
+</div>
+                                      
+<div class="data-row">
+<div class="data-up">Telefon</div>
+<div class="data-down">000 000 000</div>
+</div>
+                    
+<div class="data-row">
+<div class="data-up">Gadu-Gadu</div>
+<div class="data-down">36204710</div>
+</div>        
+
+<div class="data-row">
+<!-- start gg-widget-html - Copyright GG Network S.A. -->
+<a href="http://widget.gg.pl/widget/478842deef153b925605b11574beee3e915287e8c9970ccba7f53d0c490ca0b2#uin%3D36204710%7Cmsg_online%3DWitam%2C%20w%20czym%20mog%C4%99%20pom%C3%B3c%7Cmsg_offline%3DObecnie%20jestem%20nie%20dost%C4%99pny.%20Zostaw%20wiadomo%C5%9B%C4%87%20i%20informacje%20kontaktowe%2C%20a%20odpowiem%20na%20Twoje%20pytanie.%20pozdrawiam%20Adrian%7Chash%3D478842deef153b925605b11574beee3e915287e8c9970ccba7f53d0c490ca0b2" rel="nofollow" data-gg-widget="normal-bottom" target="_blank"
+style=" border: 1px solid #084972; -webkit-border-radius: 2px; background: linear-gradient(#2389c9 0%, #084972 100%); background:-webkit-linear-gradient(#2389c9 0%, #084972 100%); background: -o-linear-gradient(#2389c9 0%, #084972 100%); background: -moz-linear-gradient(#2389c9 0%, #084972 100%); border-radius: 2px; box-shadow: 0px 1px 2px -1px #fff inset; -webkit-box-shadow: 0px 1px 2px -1px #fff inset; -moz-box-shadow: 0px 1px 2px -1px #fff inset; color: #fff; display: inline-block; font-family: Arial, sans-serif; font-size: 13px; height: 30px; max-width: 300px; text-decoration: none;">
+<img alt="" style="display: inline-block; line-height: 30px; padding: 6px 1px 6px 6px; vertical-align: top;" src="https://status.gadu-gadu.pl/users/status.asp?id=36204710&amp;styl=1&amp;source=widget">
+<span style="display: inline-block; line-height: 30px; max-width: 262px; overflow: hidden; padding: 0 6px 0 0; text-overflow: ellipsis; ms-text-overflow: ellipsis; o-text-overflow: ellipsis; white-space: nowrap;">Zadaj pytanie on-line</span>
+</a>
+<!-- Chcesz mieć GG widget na swojej stronie? Sprawdź http://www.gg.pl/info/komunikator-na-twoja-strone/ -->
+<!-- end gg-widget-html -->
+
+<!-- start gg-widget-javascript - kod javascript możesz umieścić przed końcowym znacznikiem body - Copyright GG Network S.A. -->
+<script type="text/javascript">
+(function() {
+    var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.id = 'gg-widget-script';
+    s.src = 'http://widget.gg.pl/resources/js/widget.js';
+    var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss); })();
+</script>
+<!-- end gg-widget-javascript -->
+</div>
+
+</div>
+</div>
+
+
+
+
+<div class="left">
+<div class="block">
+<div class="block-heading">
+<div class="block-icon"><img src="images/svgicons/brankic/graduate.svg" /></div>
+<div class="block-title">Wykształcenie</div>
+</div>
+
+<div class="block-row">
+<div class="block-left">
+<div class="icon-circle"><img src="images/svgicons/brankic/radio-unchecked.svg" /></div>
+</div>
+<div class="block-right">
+<div class="entry-title">bla bla bla bla bla<br><span class="date">00.00.0000</span></div>
+<div class="entry-desc">bla bla bla</div>
+</div>
+</div>
+                
+<div class="block-row">
+<div class="block-left">
+<div class="icon-circle"><img src="images/svgicons/brankic/radio-unchecked.svg" /></div>
+</div>
+<div class="block-right">
+<div class="entry-title">bla bla bla bla bla<br><span class="date">00.00.0000</span></div>
+<div class="entry-desc">bla bla bla</div>
+</div>
+</div>            
+</div>
+        
+
+<div class="block">
+<div class="block-heading">
+<div class="block-icon"><img src="images/svgicons/brankic/suitcase.svg" /></div>
+<div class="block-title">Doświadczenie zawodowe</div>
+</div>
+
+<div class="block-row">
+<div class="block-left">
+<div class="icon-circle"><img src="images/svgicons/brankic/radio-unchecked.svg" /></div>
+</div>
+<div class="block-right">
+<div class="entry-title">bla bla bla<br><span class="date">00.00.0000</span></div>
+<div class="entry-desc">bla bla bla bla</div>
+</div>
+</div>
+                    
+<div class="block-row">
+<div class="block-left">
+<div class="icon-circle"><img src="images/svgicons/brankic/radio-unchecked.svg" /></div>
+</div>
+<div class="block-right">
+<div class="entry-title">bla bla bla<br><span class="date">00.00.0000</span></div>
+<div class="entry-desc">bla bla bla bla</div>
+</div>
+</div>
+                    
+<div class="block-row">
+<div class="block-left">
+<div class="icon-circle"><img src="images/svgicons/brankic/radio-unchecked.svg" /></div>
+</div>
+<div class="block-right">
+<div class="entry-title">bla bla bla<br><span class="date">00.00.0000</span></div>
+<div class="entry-desc">bla bla bla bla</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="right">   
+<div class="block">
+<div class="block-heading">
+<div class="block-icon"><img src="images/svgicons/brankic/chat.svg" /></div>
+<div class="block-title">Języki obce</div>
+</div>
+     
+<div class="block-row unsignificant">
+<div class="block-left">
+<div class="icon-circle"><img src="images/svgicons/brankic/plus.svg" /></div>
+</div>
+<div class="block-right">
+<div class="entry-title">Polski<br><span class="date">Ojczysty</span></div>
+</div>
+</div>
+               
+<div class="block-row unsignificant">
+<div class="block-left">
+<div class="icon-circle"><img src="images/svgicons/brankic/plus.svg" /></div>
+</div>
+<div class="block-right">
+<div class="entry-title">Polski<br><span class="date">Ojczysty</span></div>
+</div>
+</div>
+</div>
+        
+
+        
+<div class="block">
+<div class="block-heading">
+<div class="block-icon"><img src="images/svgicons/brankic/medal.svg" /></div>
+<div class="block-title">Kursy, szkolenia i osiągnięcia</div>
+</div>
+  
+<div class="block-row">
+<div class="block-left">
+<div class="icon-circle"><img src="images/svgicons/brankic/checkmark.svg" /></div>
+</div>
+<div class="block-right">
+<div class="entry-title">bla bla bla bla<br><span class="date">00.00.0000</span></div>
+<div class="entry-desc">bla bla bla</div>
+</div>
+</div>
+                  
+<div class="block-row">
+<div class="block-left">
+<div class="icon-circle"><img src="images/svgicons/brankic/checkmark.svg" /></div>
+</div>
+<div class="block-right">
+<div class="entry-title">bla bla bla bla<br><span class="date">00.00.0000</span></div>
+<div class="entry-desc">bla bla bla</div>
+</div>
+</div>
+</div>
+ 
+ 
+ 
+<div class="block">
+<div class="block-heading">
+<div class="block-icon"><img src="images/svgicons/brankic/stats.svg" /></div>
+<div class="block-title">Umiejętności i dodatkowe atuty</div>
+</div>
+<div class="block-single">
+       tu wpisać  jakas umiejetnosc
+</div>
+</div>
+
+
+
+<div class="block">
+<div class="block-heading">
+<div class="block-icon"><img src="images/svgicons/brankic/cassette.svg" /></div>
+<div class="block-title">Zainteresowania</div>
+</div>
+<div class="block-single">
+               tu wpisać jakies zainteresowanie
+</div>
+</div>
+</div>   
+
+<div class="block">
+<div class="disclaimer" style="text-align: center; font-size: 11px; font-family: arial; color: #00FF6A;">
+Wyrażam zgodę na przetwarzanie danych osobowych zawartych w mojej ofercie pracy dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z ustawą z dnia 29 sierpnia 1997 r. o ochronie danych osobowych (tj. Dz. U. z 2015 r. poz. 2135).
+</div>
+</div>
+</div>
+<!--koniec Początek CV -->
+
+</body>
+</html> 
